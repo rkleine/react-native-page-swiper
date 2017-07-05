@@ -11,7 +11,7 @@ export default class Dot extends Component {
   };
 
   static defaultProps = {
-    color: 'rgba(192, 192, 192, 1)',
+    color: 'rgba(255, 255, 255, 0.3)',
     diameter: 10,
   };
 
