@@ -29,7 +29,7 @@ export default class Swiper extends Component {
     activeDotColor: 'blue',
     pagerStyle: {
       position: 'absolute',
-      bottom: 50
+      bottom: 10
     }
   };
 
