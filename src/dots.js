@@ -1,6 +1,7 @@
 'use strict';
 
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import {
   StyleSheet,
   View
@@ -10,8 +11,8 @@ import Dot from './dot';
 
 export default class Dots extends Component {
   static propTypes = {
-    total: React.PropTypes.number,
-    active: React.PropTypes.number,
+    total: PropTypes.number,
+    active: PropTypes.number,
     style: View.propTypes.style,
   };
 

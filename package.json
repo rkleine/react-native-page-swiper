@@ -28,8 +28,9 @@
   },
   "homepage": "https://github.com/fixt/react-native-page-swiper#readme",
   "peerDependencies": {
-    "react": "0.14.x || 15.x.x",
-    "react-native": ">=0.18.0 <=0.29.0"
+    "react": "16.0.0-rc.2",
+    "react-native": ">=0.45.0",
+    "prop-types": "15.5.x"
   },
   "devDependencies": {
     "babel-eslint": "^4.1.8",
